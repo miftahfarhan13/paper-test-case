@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+#myTabContent{
+    background: none;
+}
+
+#myTabContent li.active >a {
+    background: none !important;
+  }
+
+  .nav-tabs>li.active > a {
+    background-color: transparent!important;
+  }
+
+  li.active>a {
+    background-color: initial !important;
+  }
+
+  .btn-create-account{
+    background-color:#488CC7 ;
+    border-radius: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-color: #488CC7;
+    font-size: 12px;
+    float: right;
+    margin-right: 30px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+
+  .input-div{
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #00000029;
+}
+
+label { display:block }
+
+.input-form{
+    
+    border: none;
+    outline: none;
+    background: none; 
+    color: black;
+}
+
+.input-form::placeholder{
+    color: #12405D;
+}
+
+.input-form, option, .placeholder{
+    color: #12405D;
+}
+
+.input-form:hover, .input-form:focus, .input-form:active{
+    border: none;
+    outline: none;
+    background: none; 
+    color: black;
+}
+
+.input-div label{
+    font-size: 12px;
+    color: #133F5D;
+    font-family: 'Lato' !important;
+}
+
+.modal-finance-name{
+    font-size: 19px;
+    color: #133F5D;
+    font-family: 'Lato' !important;
+}
+
+.btn_simpan_account{
+    background-color:#AFE47C ;
+    border-radius: 180px;
+    border-color: #AFE47C;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 48px;
+    padding-left: 48px;
+    margin-right: 16px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-simpan-account_edit{
+    background-color:#AFE47C ;
+    border-radius: 180px;
+    border-color: #AFE47C;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 48px;
+    padding-left: 48px;
+    margin-right: 16px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-cancel-account{
+    background-color:#AFE47C ;
+    border-radius: 180px;
+    border-color: #AFE47C;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 48px;
+    padding-left: 48px;
+    margin-right: 16px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-batal-account{
+    background-color:transparent ;
+    border-radius: 180px;
+    border-color:#8B99A4;
+    color: #8B99A4;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 48px;
+    padding-left: 48px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-delete-account{
+    background-color:transparent ;
+    border-radius: 180px;
+    border-color:#FFFFFF;
+    color: #FFFFFF;
+    margin-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 48px;
+    padding-left: 48px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.search-table-accout{
+    border-radius: 180px;
+    width: 280px;
+}
+
+.button_action_account{
+    background-color: #A5CE5D;
+    border-color: #A5CE5D;
+}
+  

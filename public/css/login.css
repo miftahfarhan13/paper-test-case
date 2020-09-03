@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato' !important;
+}
+
+body{
+    color: white;
+}
+.page-container{
+    height: 100%;
+    background-image: url("../img/back-ground-image-login.png");
+    background-color: #3B7FBA;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paper-logo{
+    width: 214px;
+    height: 48px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.login-card{
+    background-color:transparent;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: transparent;
+}
+
+.login-title{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 19px;
+    font-weight: 900;
+}
+
+
+.login-line{
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    text-align: center;
+    border: white;
+    margin-bottom: 36px;
+}
+
+.login-desc{
+    display: visible;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Lato', 'Lato Light 300';
+    margin-bottom: 37px;
+    font-weight:50;
+}
+
+.btn-login{
+    background-color:#AFE47C ;
+    border-radius: 180px;
+    width: 100%;
+    border-color: #AFE47C;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-login:hover, .btn-login:focus, .btn-login:active{
+    box-shadow: 0 0 20px #AFE47C;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color:#AFE47C ;
+    border-color: #AFE47C ;
+}
+
+.login-forgot{
+    float: right;
+    margin-bottom: 60px;
+}
+
+.input-div{
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #6FA0CD;
+}
+
+.input-form{
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background: none; 
+    color: white;
+}
+
+.form-control{
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.form-control:focus, .form-control:active {
+    top: 0;
+    left: 0;
+    border: 0;
+    outline: none;
+    background: none; 
+    border-color: transparent;
+    color: white;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+.input-form::placeholder{
+    color: white;
+}
+
+i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
+}
+
+a:hover {
+    color:white;
+    
+  }
+
+
+@media (max-width: 576px) {
+    .login-desc{
+        display: none;
+    }
+}
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+    .paper-logo{
+        width: 214px;
+        height: 48px;
+        float: right;
+        margin-top: 61px;
+        margin-right: 73px;
+    }
+    
+    .login-card{
+      margin: 0;
+      position: absolute;
+      background-color:transparent;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      top: 50%;
+      border: #3B7FBA;
+      margin-left: 173px;
+    }
+    
+    .login-title{
+        color: white;
+        font-size: 38px;
+    }
+    
+    .login-desc{
+        display: visible;
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Lato', 'Lato Light 300';
+        font-weight:50;
+    }
+
+    .input-div{
+        display: grid;
+        grid-template-columns: 7% 93%;
+        margin: 25px 0;
+        padding: 5px 0;
+        border-bottom: 2px solid #6FA0CD;
+        width: 490px;
+    }
+}
